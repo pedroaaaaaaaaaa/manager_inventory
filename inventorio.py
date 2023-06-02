@@ -10,3 +10,5 @@ class Inventorio():
         self.__lista.remove(item)
     def getItem(self)->list:
         return self.__lista
+    def get_size(self) -> int:
+        return self.__tamanho_maximo
