@@ -7,8 +7,8 @@ class Armadura(Item):
         self.__nome = nomeItem
         self.__preco = preco
         self.__raridade = raridade
-        self.__item = Item()
 
     def getATB(self):
         return self.__nome, self.__preco, self.__raridade, self.__defesa
+
 
