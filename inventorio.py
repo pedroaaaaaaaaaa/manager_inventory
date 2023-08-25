@@ -8,7 +8,9 @@ class Inventorio():
         self.__lista.append(item)
     def removeItem(self, item):
         self.__lista.remove(item)
-    def getItem(self)->list:
+    def getItens(self)->list:
         return self.__lista
     def get_size(self) -> int:
         return self.__tamanho_maximo
+    def get_item_by_index(self, index):
+        return self.__lista[index]
